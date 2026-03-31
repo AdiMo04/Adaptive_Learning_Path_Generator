@@ -1,0 +1,21 @@
+# Core
+numpy==1.26.3
+pandas==2.2.0
+
+# Web Framework
+fastapi==0.110.0
+uvicorn==0.27.0
+pydantic==2.6.0
+
+# Dashboard
+streamlit==1.29.0
+plotly==5.18.0
+
+# Graph & Algorithms
+networkx==3.2.1
+
+# Testing
+pytest==8.0.0
+
+# Utilities
+python-dotenv==1.0.0
