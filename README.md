@@ -7,7 +7,7 @@
 
 > An AI-powered personalized learning recommendation system that generates adaptive skill paths using Bayesian confidence tracking and knowledge graphs.
 
-## 🚀 Live Demo
+## 🚀 **Live Demo:** https://adaptive-learning-dashboard.onrender.com
 
 - **API Documentation:** http://localhost:8000/docs (after running locally)
 - **Dashboard:** http://localhost:8501 (after running locally)
