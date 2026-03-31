@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 # API URL (change if running on different host/port)
-API_URL = "http://localhost:8000"
+API_URL = "https://adaptive-learning-api.onrender.com"
 
 # Custom CSS for better styling
 st.markdown("""
