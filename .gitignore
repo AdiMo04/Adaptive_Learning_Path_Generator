@@ -1,0 +1,7 @@
+venv/
+_pyache_/
+*.pyc
+.env
+.DS_Store
+*.log
+.streamlit/

@@ -1,0 +1,93 @@
+{
+    "skills": {
+      "python_basics": {
+        "name": "Python Basics",
+        "description": "Variables, loops, conditionals, basic data types",
+        "prerequisites": [],
+        "estimated_hours": 10,
+        "difficulty": 1
+      },
+      "functions": {
+        "name": "Python Functions",
+        "description": "Defining functions, arguments, return values, scope",
+        "prerequisites": ["python_basics"],
+        "estimated_hours": 5,
+        "difficulty": 2
+      },
+      "data_structures": {
+        "name": "Python Data Structures",
+        "description": "Lists, dictionaries, sets, tuples, list comprehensions",
+        "prerequisites": ["python_basics"],
+        "estimated_hours": 8,
+        "difficulty": 2
+      },
+      "error_handling": {
+        "name": "Error Handling",
+        "description": "Try/except, raising exceptions, custom exceptions",
+        "prerequisites": ["functions"],
+        "estimated_hours": 3,
+        "difficulty": 2
+      },
+      "oop": {
+        "name": "Object Oriented Programming",
+        "description": "Classes, inheritance, polymorphism, magic methods",
+        "prerequisites": ["functions", "data_structures"],
+        "estimated_hours": 12,
+        "difficulty": 3
+      },
+      "file_io": {
+        "name": "File I/O",
+        "description": "Reading/writing files, CSV, JSON handling",
+        "prerequisites": ["functions"],
+        "estimated_hours": 4,
+        "difficulty": 2
+      },
+      "http_basics": {
+        "name": "HTTP Basics",
+        "description": "Requests, responses, methods (GET/POST), status codes",
+        "prerequisites": [],
+        "estimated_hours": 4,
+        "difficulty": 2
+      },
+      "async_python": {
+        "name": "Async Python",
+        "description": "Async/await, asyncio, event loops",
+        "prerequisites": ["functions"],
+        "estimated_hours": 8,
+        "difficulty": 4
+      },
+      "fastapi_basics": {
+        "name": "FastAPI Basics",
+        "description": "Routes, path parameters, query parameters, request body",
+        "prerequisites": ["functions", "http_basics"],
+        "estimated_hours": 8,
+        "difficulty": 3
+      },
+      "pydantic": {
+        "name": "Pydantic",
+        "description": "Data validation, settings management, models",
+        "prerequisites": ["fastapi_basics"],
+        "estimated_hours": 4,
+        "difficulty": 3
+      },
+      "dependency_injection": {
+        "name": "FastAPI Dependencies",
+        "description": "Depends(), dependency injection patterns",
+        "prerequisites": ["fastapi_basics"],
+        "estimated_hours": 4,
+        "difficulty": 3
+      },
+      "fastapi_advanced": {
+        "name": "FastAPI Advanced",
+        "description": "Websockets, background tasks, middleware, CORS",
+        "prerequisites": ["fastapi_basics", "async_python"],
+        "estimated_hours": 10,
+        "difficulty": 4
+      }
+    },
+    "goals": {
+      "become_python_developer": ["oop", "error_handling", "file_io"],
+      "become_fastapi_developer": ["fastapi_advanced", "pydantic", "dependency_injection"],
+      "become_backend_engineer": ["fastapi_advanced", "async_python", "http_basics"]
+    }
+  }

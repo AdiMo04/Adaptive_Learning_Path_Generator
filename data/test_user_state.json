@@ -1,0 +1,54 @@
+{
+  "user_id": "test_user_001",
+  "confidence": {
+    "python_basics": 0.692,
+    "functions": 0.5,
+    "async_python": 0.3,
+    "fastapi_basics": 0.3
+  },
+  "history": {
+    "python_basics": [
+      {
+        "type": "quiz",
+        "score": 0.85,
+        "raw_score": 85,
+        "max_score": 100,
+        "prior": 0.3,
+        "new": 0.52,
+        "timestamp": "2026-03-31T13:37:53.405104"
+      },
+      {
+        "type": "quiz",
+        "score": 0.95,
+        "raw_score": 95,
+        "max_score": 100,
+        "prior": 0.52,
+        "new": 0.692,
+        "timestamp": "2026-03-31T13:37:53.405112"
+      }
+    ],
+    "functions": [
+      {
+        "type": "completion",
+        "time_spent": 6,
+        "estimated_hours": 5,
+        "progress": 1.2,
+        "prior": 0.3,
+        "new": 0.5,
+        "timestamp": "2026-03-31T13:37:53.405117"
+      }
+    ],
+    "async_python": [
+      {
+        "type": "self_assessment",
+        "rating": 3,
+        "max_rating": 10,
+        "normalized": 0.3,
+        "prior": 0.3,
+        "new": 0.3,
+        "timestamp": "2026-03-31T13:37:53.405122"
+      }
+    ]
+  },
+  "saved_at": "2026-03-31T13:37:53.405161"
+}
